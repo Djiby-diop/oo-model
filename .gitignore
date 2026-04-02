@@ -11,9 +11,11 @@ __pycache__/
 *.pt
 *.pth
 *.safetensors
+checkpoints/
 runs/
 build/
 dist/
+data/oo_vocab.json
 data/raw/
 data/processed/
 data/cache/
