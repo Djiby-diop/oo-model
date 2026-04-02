@@ -26,6 +26,18 @@ Chaque ligne représente un exemple autonome.
 }
 ```
 
+## Métadonnées recommandées
+
+Le champ `context` peut contenir, quand disponible :
+
+- `source_path`
+- `mode`
+- `component`
+- `risk`
+- `event_index`
+
+Un manifest global des sources est écrit dans `data/raw/source_manifest.json`.
+
 ## Familles
 
 ### `boot_recovery`
@@ -75,6 +87,8 @@ Chaque ligne représente un exemple autonome.
 - `valid.jsonl`
 - `test.jsonl`
 - `eval_oo.jsonl`
+
+Le corpus brut consolidé est écrit dans `data/raw/extracted_corpus.jsonl` avant le split déterministe.
 
 ## Evaluation examples
 
